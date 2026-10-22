@@ -1,0 +1,28 @@
+# Script output
+reports/*
+!reports/.gitkeep
+
+# Test output
+TestResults/
+testResults.xml
+coverage.xml
+
+# Local env / secrets - never commit
+.env
+*.env
+*.pfx
+*.pem
+*.key
+*.publishsettings
+
+# Bicep build output
+infra/**/*.json
+!infra/**/*.parameters.json
+
+# Editor / OS
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

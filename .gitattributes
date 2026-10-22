@@ -1,0 +1,4 @@
+# Force LF so bash scripts don't break when committed from Windows
+* text=auto eol=lf
+*.sh text eol=lf
+*.ps1 text eol=lf
